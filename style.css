@@ -15,8 +15,8 @@ body{
     width: 360px;
     height: 640px;
     margin-top: 150px;
-    background: rgba(255,255,255,.1);
-    transform: rotate(-30deg) skew(25deg) scale(.7);
+    background: rgba(0,0,0,.1);
+    transform: rotate(-10deg) skew(25deg) scale(.7);
 }
 
 .layer{
@@ -26,7 +26,9 @@ body{
     display: block;
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: url(bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     transition: 0.5s;
 }
 
@@ -35,7 +37,7 @@ body{
     opacity: 1;
 }
 
-.box:hover .layer:nth-child(2){
+.box:hover .layer:nth-child(3){
     transform: translate(120px,-120px);
     opacity: .8;
 }
