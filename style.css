@@ -8,3 +8,12 @@ body{
     justify-content: center;
     background: #000;
 }
+
+.box{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin-top: 150px;
+    background: rgba(255,255,255,.1);
+    transform: rotate(-30deg) skew(25deg) scale(.7);
+}
