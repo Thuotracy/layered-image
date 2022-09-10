@@ -41,8 +41,8 @@ body{
 }
 
 .box:hover .layer:nth-child(2){
-    transform: translate(160px,-160px);
-    opacity: 1;
+    transform: translate(80px,-80px);
+    opacity: .6;
 }
 
 .box:hover .layer:nth-child(1){
